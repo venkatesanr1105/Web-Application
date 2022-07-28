@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*, ::after, ::before{
+    font-family: 'Open Sans';
+    font-size: medium;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 1;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .5rem;
+    box-shadow: 4px 9px 16px lightgray;
+    width: 992px;
+    height: 600px;
+}
+
+.container #first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: dodgerblue;
+    color:white;
+    width:331px;
+    height: 600px;
+    border-radius: .5rem;
+}
+
+#first .heading{
+    font-size:xx-large;
+    font-weight: 700;
+}
+
+#first .subheading{
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+#first img{
+    width: 150px;
+    height: 150px;
+}
+
+.container #second{
+    width:661px;
+    height: 600px;}
+
+.container #second form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: .5rem;
+
+}
+#second .inputfields{
+    width: 600px;
+    height: 100px;
+}
+
+#second .inputfields input{
+    width: 90%;
+    height: 50%;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: .5rem;
+    padding-left: 1rem;
+}
+
+#second .inputfields input:focus{
+    background-color: rgba(30, 143, 255, 0.1);
+    border: 2px solid dodgerblue;
+}
+
+#btn
+{
+    width: 360px;
+    height: 50px;
+    background-color: rgba(255, 166, 0, 0.8);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: .5rem;   
+}
+
+#btn:hover{
+    background-color: orange;
+}
+
+#second a{
+    color: dodgerblue;
+    font-weight: 900;
+    text-decoration: none;
+}
+.error{
+    color: red;
+    font-size: small;
+    font-weight: 900;
+} 
